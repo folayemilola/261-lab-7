@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('images/stars.png'); 
+  margin: 0;
+  padding: 0;
+  color: whitesmoke
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: linear-gradient(to right, #8a2be2, #9400d3, #4b0082); /* Ombre purple background */
+  color: #fff;
+}
+
+
+.planet-info {
+  font-style: italic;
+  font-weight: bold;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+td, th {
+	border: 1px solid;
+  }
+  
